@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">example suite 2</th></tr><tr><td><a href="#t0">combined test 2</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">6,710</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">example suite 2</th></tr></tbody><tbody id="t0"><tr><th colspan="4">combined test 2 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">learning_selenium_testcases.Firsttest</td><td><a href="#m0">close_browser</a></td><td rowspan="1">1473325021097</td><td rowspan="1">0</td></tr><tr><th colspan="4">combined test 2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">learning_selenium_testcases.CombinedTest</td><td><a href="#m1">businessFlowOne</a></td><td rowspan="2">1473325015946</td><td rowspan="2">5137</td></tr><tr class="failedeven"><td><a href="#m2">businessFlowOne</a></td></tr></tbody></table><h2>combined test 2</h2><h3 id="m0">learning_selenium_testcases.Firsttest#close_browser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;inrdivya.local&apos;, ip: &apos;10.133.22.112&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:706)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:526)
+	at learning_selenium_testcases.Firsttest.close_browser(Firsttest.java:75)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;inrdivya.local&apos;, ip: &apos;10.133.22.112&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12737)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10464)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10611)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10558)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12524)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">learning_selenium_testcases.CombinedTest#businessFlowOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>divyarakhiani7@gmail.com</td><td>rakhiani</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 8 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;inrdivya.local&apos;, ip: &apos;10.133.22.112&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:706)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:335)
+	at learning_selenium_testcases.Firsttest.verifyPagesTest(Firsttest.java:41)
+	at learning_selenium_testcases.CombinedTest.businessFlowOne(CombinedTest.java:87)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;inrdivya.local&apos;, ip: &apos;10.133.22.112&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12737)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10464)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10611)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10558)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12524)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">learning_selenium_testcases.CombinedTest#businessFlowOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>divyarakhiani@gmail.com</td><td>rakhiani1</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 7 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;inrdivya.local&apos;, ip: &apos;10.133.22.112&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:331)
+	at learning_selenium_testcases.CombinedTest.businessFlowOne(CombinedTest.java:74)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;inrdivya.local&apos;, ip: &apos;10.133.22.112&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12737)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10464)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10611)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10558)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12524)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

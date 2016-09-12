@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 2" duration-ms="6710" started-at="2016-09-08T08:56:54Z" finished-at="2016-09-08T08:57:01Z">
+    <groups>
+    </groups>
+    <test name="combined test 2" duration-ms="6710" started-at="2016-09-08T08:56:54Z" finished-at="2016-09-08T08:57:01Z">
+      <class name="learning_selenium_testcases.CombinedTest">
+        <test-method status="FAIL" signature="businessFlowOne(java.lang.String, java.lang.String)[pri:0, instance:learning_selenium_testcases.CombinedTest@4501b7af]" name="businessFlowOne" duration-ms="5137" started-at="2016-09-08T14:26:55Z" data-provider="TestData" finished-at="2016-09-08T14:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyarakhiani7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rakhiani]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window not found. The browser window may have been closed.
+Command duration or timeout: 8 milliseconds
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 8 milliseconds
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:706)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:335)
+	at learning_selenium_testcases.Firsttest.verifyPagesTest(Firsttest.java:41)
+	at learning_selenium_testcases.CombinedTest.businessFlowOne(CombinedTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12737)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10464)
+	at <anonymous class>.Resource.prototype.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10611)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10558)
+	at <anonymous class>.WebDriverServer/<.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12524)
+	at <anonymous class>.createHandlerFunc/<(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessFlowOne -->
+        <test-method status="FAIL" signature="businessFlowOne(java.lang.String, java.lang.String)[pri:0, instance:learning_selenium_testcases.CombinedTest@4501b7af]" name="businessFlowOne" duration-ms="8" started-at="2016-09-08T14:27:01Z" data-provider="TestData" finished-at="2016-09-08T14:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyarakhiani@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rakhiani1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window not found. The browser window may have been closed.
+Command duration or timeout: 7 milliseconds
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 7 milliseconds
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:331)
+	at learning_selenium_testcases.CombinedTest.businessFlowOne(CombinedTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12737)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10464)
+	at <anonymous class>.Resource.prototype.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10611)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10558)
+	at <anonymous class>.WebDriverServer/<.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12524)
+	at <anonymous class>.createHandlerFunc/<(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessFlowOne -->
+      </class> <!-- learning_selenium_testcases.CombinedTest -->
+      <class name="learning_selenium_testcases.Firsttest">
+        <test-method status="PASS" signature="verifyFirstTest()[pri:0, instance:learning_selenium_testcases.Firsttest@28d25987]" name="verifyFirstTest" is-config="true" duration-ms="1443" started-at="2016-09-08T14:26:54Z" finished-at="2016-09-08T14:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstTest -->
+        <test-method status="FAIL" signature="close_browser()[pri:0, instance:learning_selenium_testcases.Firsttest@28d25987]" name="close_browser" is-config="true" duration-ms="0" started-at="2016-09-08T14:27:01Z" finished-at="2016-09-08T14:27:01Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window not found. The browser window may have been closed.
+Command duration or timeout: 6 milliseconds
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 6 milliseconds
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=MAC, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac030646-97ee-1847-a66c-92d74d706176
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:706)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:526)
+	at learning_selenium_testcases.Firsttest.close_browser(Firsttest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.afterRun(TestRunner.java:973)
+	at org.testng.TestRunner.run(TestRunner.java:604)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'inrdivya.local', ip: '10.133.22.112', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12737)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10464)
+	at <anonymous class>.Resource.prototype.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10611)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10558)
+	at <anonymous class>.WebDriverServer/<.handle(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12524)
+	at <anonymous class>.createHandlerFunc/<(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///var/folders/9x/0g2tgc69781972581972xqth0000gp/T/anonymous3670686623473726282webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- learning_selenium_testcases.Firsttest -->
+    </test> <!-- combined test 2 -->
+  </suite> <!-- example suite 2 -->
+</testng-results>
